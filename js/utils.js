@@ -1,4 +1,4 @@
-//    Bad quickly hacked together code by revdancatt
+//  Bad quickly hacked together code by revdancatt
 //	revdancatt@gmail.com, use what you like
 //	1337 29th Nov 2008
 
