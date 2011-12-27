@@ -1,0 +1,51 @@
+<html>
+<head>
+    <title>3D test</title>
+	<script src="js/utils.js"></script>
+<style>
+#obj_canvas {
+	position: absolute;
+	top:5px;
+	left:5px;
+	width: 640px;
+	height:480px;
+}
+
+#fps {
+	position: absolute;
+	top:5px;
+	left:5px;
+	width: 640px;
+	height:480px;
+	color:white;
+	font-family: Courier;
+	font-size: 12px;
+}
+
+#description {
+	font-family: Arial;
+	position: absolute;
+	top:490px;
+	left:5px;
+	font-size: 14px;
+}
+
+</style>
+<body>
+
+<canvas id="obj_canvas" width="320" height="240"></canvas>
+<div id="fps" onclick="lave.do_rotate = true;"></div>
+<div id="description">
+Javascript+Canvas+Elite = :)<br />
+Firefox only obviously sorry.<br />
+<a href="http://www.fluffykittens.com/archives.php/2008/11/29/elite-javascript-canvas/">Blog post here</a>
+</div>
+
+<script type="text/javascript">
+	window.loadFirebugConsole();
+	lave.go()
+</script>
+
+</body>
+</head>
+</html>
