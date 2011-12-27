@@ -14,7 +14,7 @@ body {
 	position: absolute;
     width: 640px;
 	height:480px;
-    margin-top: -240px;
+    margin-top: 60px;
 }
 
 #fps {
@@ -23,11 +23,10 @@ body {
 	left:5px;
 }
 
-#hahaholder,
-#hahaholder tr,
-#hahaholder td {
-    width: 100%;
-    height: 100%;
+#hahaholder {
+    width: 640px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #about a {
@@ -42,13 +41,9 @@ body {
 
 
 <div id=fps></div>
-<table id=hahaholder>
-    <tr>
-        <td align=center valign=middle>
-            <canvas id=obj_canvas width=320 height=240></canvas>
-        </td>
-    </tr>
-</table>
+<div id=hahaholder>
+    <canvas id=obj_canvas width=320 height=240></canvas>
+</div>
 <div id=about><a href="https://github.com/revdancatt/Rotating-Cobra-Mk-3">https://github.com/revdancatt/Rotating-Cobra-Mk-3</a></div>
 <script src=js/utils.js></script>
 <script>
