@@ -1,48 +1,57 @@
 <html>
 <head>
     <title>3D test</title>
-	<script src="js/utils.js"></script>
 <style>
+
+body {
+    background: black;
+    color: white;
+    font-family: Courier;
+	font-size: 12px;
+}
+
 #obj_canvas {
 	position: absolute;
-	top:5px;
-	left:5px;
-	width: 640px;
+    width: 640px;
 	height:480px;
+    margin-top: -240px;
 }
 
 #fps {
 	position: absolute;
 	top:5px;
 	left:5px;
-	width: 640px;
-	height:480px;
-	color:white;
-	font-family: Courier;
-	font-size: 12px;
 }
 
-#description {
-	font-family: Arial;
-	position: absolute;
-	top:490px;
-	left:5px;
-	font-size: 14px;
+#hahaholder,
+#hahaholder tr,
+#hahaholder td {
+    width: 100%;
+    height: 100%;
+}
+
+#about a {
+    color: white;
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
 }
 
 </style>
 <body>
 
-<canvas id="obj_canvas" width="320" height="240"></canvas>
-<div id="fps" onclick="lave.do_rotate = true;"></div>
-<div id="description">
-Javascript+Canvas+Elite = :)<br />
-Firefox only obviously sorry.<br />
-<a href="http://www.fluffykittens.com/archives.php/2008/11/29/elite-javascript-canvas/">Blog post here</a>
-</div>
 
-<script type="text/javascript">
-	window.loadFirebugConsole();
+<div id=fps></div>
+<table id=hahaholder>
+    <tr>
+        <td align=center valign=middle>
+            <canvas id=obj_canvas width=320 height=240></canvas>
+        </td>
+    </tr>
+</table>
+<div id=about><a href="https://github.com/revdancatt/Rotating-Cobra-Mk-3">https://github.com/revdancatt/Rotating-Cobra-Mk-3</a></div>
+<script src=js/utils.js></script>
+<script>
 	lave.go()
 </script>
 
