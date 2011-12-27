@@ -69,27 +69,27 @@ lave={
 	// Blah blah, lazy rotate
 	rotate_point: function(point, values) {
 	
-		var new_point = {x:0, y:0, z:0};
-
-		values.x = values.x*this.radmod;
-		values.y = values.y*this.radmod;
-		values.z = values.z*this.radmod;
-
-		new_point.x = point.x;
+        var new_point = {x:0, y:0, z:0};
+        
+        values.x = values.x*this.radmod;
+        values.y = values.y*this.radmod;
+        values.z = values.z*this.radmod;
+        
+        new_point.x = point.x;
         new_point.y = point.y * Math.cos(values.x) - point.z * Math.sin(values.x);  //rotate about X
         new_point.z = point.y * Math.sin(values.x) + point.z * Math.cos(values.x);  //rotate about X
-
-		point.x = parseFloat(new_point.x);
-		point.z = parseFloat(new_point.z);
+        
+        point.x = parseFloat(new_point.x);
+        point.z = parseFloat(new_point.z);
         new_point.x = point.z * Math.sin(values.y) + point.x * Math.cos(values.y);  //rotate about Y
         new_point.z = point.z * Math.cos(values.y) - point.x * Math.sin(values.y);  //rotate about Y
-
-		point.x = parseFloat(new_point.x);
-		point.y = parseFloat(new_point.y);
+        
+        point.x = parseFloat(new_point.x);
+        point.y = parseFloat(new_point.y);
         new_point.x = point.x * Math.cos(values.z) - point.y * Math.sin(values.z);  //rotate about Y
         new_point.y = point.x * Math.sin(values.z) + point.y * Math.cos(values.z);  //rotate about Y
-
-		return new_point;
+        
+        return new_point;
 	},
 
 	plot_shape: function(shape) {
