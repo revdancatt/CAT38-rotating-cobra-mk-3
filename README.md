@@ -6,4 +6,4 @@ browsers. Could certainly do with updating :)
 
 See it (or maybe not) in action here...
 
-http://revdancatt.github.com/CAT38-Rotating-Cobra-Mk-3/
+http://revdancatt.github.com/CAT38-rotating-cobra-mk-3/
