@@ -160,30 +160,6 @@ lave={
 
 //	Here is where we store all our shapes
 shapes={
-
-	//	function to make a cube of a specified dimension
-	make_cube: function(width) {
-		return {
-			points: [
-				{x:-width/2, y: width/2, z:-width/2},
-				{x: width/2, y: width/2, z:-width/2},
-				{x: width/2, y: width/2, z: width/2},
-				{x:-width/2, y: width/2, z: width/2},
-				{x:-width/2, y:-width/2, z:-width/2},
-				{x: width/2, y:-width/2, z:-width/2},
-				{x: width/2, y:-width/2, z: width/2},
-				{x:-width/2, y:-width/2, z: width/2}
-			],
-			polygons: [
-				[0,1,2,3],
-				[3,2,6,7],
-				[7,6,5,4],
-				[1,0,4,5],
-				[2,1,5,6],
-				[0,3,7,4]
-			]
-		}
-	},
 	
 	// 	making a cobra using co-ords from ...
 	//	http://mackayj.doosh.net/eliteships.html
