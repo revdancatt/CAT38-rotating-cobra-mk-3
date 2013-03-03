@@ -1,4 +1,4 @@
-[!Cobra 3D](http://cattopus23.com/img/panel-CAT32.png)
+![Cobra 3D](http://cattopus23.com/img/panel-CAT32.png)
 
 Quick Elite ship rotator
 ==============================
