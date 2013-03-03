@@ -1,9 +1,8 @@
-Quick *old* Elite ship rotator
+[!Cobra 3D](http://cattopus23.com/img/panel-CAT32.png)
+
+Quick Elite ship rotator
 ==============================
 
-Some old code to make a Cobra Mk III rotate on screen, may not work on all
-browsers. Could certainly do with updating :)
+A quick play to render an Elite Cobra Mk3 in simple javascript and canvas.
 
-See it (or maybe not) in action here...
-
-http://revdancatt.github.com/CAT38-rotating-cobra-mk-3/
+Running: http://revdancatt.github.com/CAT38-rotating-cobra-mk-3/
