@@ -1,0 +1,59 @@
+<html>
+<head>
+    <title>Elite - Cobra Mk III</title>
+    <meta name=apple-mobile-web-app-capable content=yes />
+    <meta name=apple-mobile-web-app-status-bar-style content=black-translucent />
+    <meta name=viewport content=width=device-width />
+    <meta name=viewport content=user-scalable=no>
+<style>
+
+body {
+    background: black;
+    color: white;
+    font-family: Courier;
+    font-size: 12px;
+}
+
+#obj_canvas {
+    position: absolute;
+    width: 640px;
+    height:480px;
+    margin-top: 60px;
+}
+
+#fps {
+    position: absolute;
+    top:5px;
+    left:5px;
+}
+
+#hahaholder {
+    width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#about a {
+    color: white;
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+}
+
+</style>
+<body>
+
+
+<div id=fps></div>
+<div id=hahaholder>
+    <canvas id=obj_canvas width=320 height=240></canvas>
+</div>
+<div id=about><a href="https://github.com/revdancatt/Rotating-Cobra-Mk-3">https://github.com/revdancatt/Rotating-Cobra-Mk-3</a></div>
+<script src=js/zarch.js></script>
+<script>
+    lave.go()
+</script>
+
+</body>
+</head>
+</html>
